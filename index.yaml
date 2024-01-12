@@ -1,14 +1,24 @@
 apiVersion: v1
 entries:
+  jx38:
+  - apiVersion: v1
+    created: "2024-01-12T20:40:15.035833829+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 03cc8880d3ffcdb208568eab64081738f810119a2c6d8db842b1916736a3457f
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    name: jx38
+    urls:
+    - https://gianlee.github.io/chartrepo/--merge/jx38-0.1.0-SNAPSHOT.tgz
+    version: 0.1.0-SNAPSHOT
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-01-12T19:25:51.384209661+01:00"
+    created: "2024-01-12T20:40:15.036320567+01:00"
     description: A Helm chart for Kubernetes
     digest: f19919cb69b76c82a6552f90a1a333c0a19da777115a5f066ae435edc2815b00
     name: mychart
     type: application
     urls:
-    - https://github.com/gianlee/chartrepo.git/mychart-0.1.0.tgz
+    - https://gianlee.github.io/chartrepo/--merge/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-12T19:25:51.383597693+01:00"
+generated: "2024-01-12T20:40:15.034858154+01:00"
